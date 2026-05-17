@@ -1,0 +1,68 @@
+MOV GS, AX
+MOV GS, BX
+MOV GS, CX
+MOV GS, DX
+MOV GS, SP
+MOV GS, BP
+MOV GS, SI
+MOV GS, DI
+
+MOV GS, [BX + SI]
+MOV GS, [BX + DI]
+MOV GS, [BP + SI]
+MOV GS, [BP + DI]
+MOV GS, [SI]
+MOV GS, [DI]
+MOV GS, [BP]
+MOV GS, [BX]
+
+MOV [BX + SI], GS
+MOV [BX + DI], GS
+MOV [BP + SI], GS
+MOV [BP + DI], GS
+MOV [SI], GS
+MOV [DI], GS
+MOV [BP], GS
+MOV [BX], GS
+
+MOV GS, [BX + SI + 5]
+MOV GS, [BX + DI - 34]
+MOV GS, [BP + SI + 127]
+MOV GS, [BP + DI - 128]
+MOV GS, [SI + 42]
+MOV GS, [DI + 76]
+MOV GS, [BX + 0x45]
+MOV GS, [BP + 4]
+
+MOV GS, [BX + SI + 3489h]
+MOV GS, [BX + DI - 940]
+MOV GS, [BP + SI + 1271]
+MOV GS, [BP + DI - 0xAF]
+MOV GS, [SI + 4200]
+MOV GS, [DI + 706]
+MOV GS, [BX + 0x450]
+MOV GS, [BP + 400]
+
+MOV [BX + SI + 5], GS
+MOV [BX + DI - 34], GS
+MOV [BP + SI + 127], GS
+MOV [BP + DI - 128], GS
+MOV [SI + 42], GS
+MOV [DI + 76], GS
+MOV [BX + 0x45], GS
+MOV [BP + 4], GS
+
+MOV [BX + SI + 3489h], GS
+MOV [BX + DI - 940], GS
+MOV [BP + SI + 1271], GS
+MOV [BP + DI - 0xAF], GS
+MOV [SI + 4200], GS
+MOV [DI + 706], GS
+MOV [BX + 0x450], GS
+MOV [BP + 400], GS
+
+MOV GS, [0x8935]
+MOV GS, [0x2]
+
+MOV [1000], GS
+MOV [0x321], GS

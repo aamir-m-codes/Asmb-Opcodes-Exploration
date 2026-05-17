@@ -1,0 +1,78 @@
+MOV CX, 0x78
+
+MOV CX, AX
+MOV CX, BX
+MOV CX, CX
+MOV CX, DX
+MOV CX, SP
+MOV CX, BP
+MOV CX, SI
+MOV CX, DI
+
+MOV CX, ES
+MOV CX, CS
+MOV CX, SS
+MOV CX, DS
+MOV CX, FS
+MOV CX, GS
+
+MOV CX, [BX + SI]
+MOV CX, [BX + DI]
+MOV CX, [BP + SI]
+MOV CX, [BP + DI]
+MOV CX, [SI]
+MOV CX, [DI]
+MOV CX, [BP]
+MOV CX, [BX]
+
+MOV [BX + SI], CX
+MOV [BX + DI], CX
+MOV [BP + SI], CX
+MOV [BP + DI], CX
+MOV [SI], CX
+MOV [DI], CX
+MOV [BP], CX
+MOV [BX], CX
+
+MOV CX, [BX + SI + 5]
+MOV CX, [BX + DI - 34]
+MOV CX, [BP + SI + 127]
+MOV CX, [BP + DI - 128]
+MOV CX, [SI + 42]
+MOV CX, [DI + 76]
+MOV CX, [BX + 0x45]
+MOV CX, [BP + 4]
+
+MOV CX, [BX + SI + 3489h]
+MOV CX, [BX + DI - 940]
+MOV CX, [BP + SI + 1271]
+MOV CX, [BP + DI - 0xAF]
+MOV CX, [SI + 4200]
+MOV CX, [DI + 706]
+MOV CX, [BX + 0x450]
+MOV CX, [BP + 400]
+
+MOV [BX + SI + 5], CX
+MOV [BX + DI - 34], CX
+MOV [BP + SI + 127], CX
+MOV [BP + DI - 128], CX
+MOV [SI + 42], CX
+MOV [DI + 76], CX
+MOV [BX + 0x45], CX
+MOV [BP + 4], CX
+
+MOV [BX + SI + 3489h], CX
+MOV [BX + DI - 940], CX
+MOV [BP + SI + 1271], CX
+MOV [BP + DI - 0xAF], CX
+MOV [SI + 4200], CX
+MOV [DI + 706], CX
+MOV [BX + 0x450], CX
+MOV [BP + 400], CX
+
+MOV CX, [0x8935]
+MOV CX, [0x2]
+
+MOV [1000], CX
+MOV [0x321], CX
+

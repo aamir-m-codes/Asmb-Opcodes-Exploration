@@ -1,0 +1,23 @@
+[bits 16]
+
+MOV AX, [DS:BX + SI]
+MOV [DS:BX + SI], AX
+
+MOV AX, [DS:BX + DI]
+MOV [DS:BX + DI], AX
+
+MOV AX, [DS:BP + SI]
+MOV [DS:BP + SI], AX
+
+MOV AX, [DS:BP]
+
+MOV AX, [DS:BX]
+MOV [DS:BX], AX
+
+MOV AX, [DS:SI + 0x36]
+MOV AX, [DS:0x73]
+
+MOV [DS:BX + DI + 0x8493], BP
+
+MOV BYTE [DS:BP], 0x83
+MOV WORD [DS:BX + 0x89], 0x3437

@@ -1,0 +1,77 @@
+MOV DI, 0x78
+
+MOV DI, AX
+MOV DI, BX
+MOV DI, CX
+MOV DI, DX
+MOV DI, SP
+MOV DI, BP
+MOV DI, SI
+MOV DI, DI
+
+MOV DI, ES
+MOV DI, CS
+MOV DI, SS
+MOV DI, DS
+MOV DI, FS
+MOV DI, GS
+
+MOV DI, [BX + SI]
+MOV DI, [BX + DI]
+MOV DI, [BP + SI]
+MOV DI, [BP + DI]
+MOV DI, [SI]
+MOV DI, [DI]
+MOV DI, [BP]
+MOV DI, [BX]
+
+MOV [BX + SI], DI
+MOV [BX + DI], DI
+MOV [BP + SI], DI
+MOV [BP + DI], DI
+MOV [SI], DI
+MOV [DI], DI
+MOV [BP], DI
+MOV [BX], DI
+
+MOV DI, [BX + SI + 5]
+MOV DI, [BX + DI - 34]
+MOV DI, [BP + SI + 127]
+MOV DI, [BP + DI - 128]
+MOV DI, [SI + 42]
+MOV DI, [DI + 76]
+MOV DI, [BX + 0x45]
+MOV DI, [BP + 4]
+
+MOV DI, [BX + SI + 3489h]
+MOV DI, [BX + DI - 940]
+MOV DI, [BP + SI + 1271]
+MOV DI, [BP + DI - 0xAF]
+MOV DI, [SI + 4200]
+MOV DI, [DI + 706]
+MOV DI, [BX + 0x450]
+MOV DI, [BP + 400]
+
+MOV [BX + SI + 5], DI
+MOV [BX + DI - 34], DI
+MOV [BP + SI + 127], DI
+MOV [BP + DI - 128], DI
+MOV [SI + 42], DI
+MOV [DI + 76], DI
+MOV [BX + 0x45], DI
+MOV [BP + 4], DI
+
+MOV [BX + SI + 3489h], DI
+MOV [BX + DI - 940], DI
+MOV [BP + SI + 1271], DI
+MOV [BP + DI - 0xAF], DI
+MOV [SI + 4200], DI
+MOV [DI + 706], DI
+MOV [BX + 0x450], DI
+MOV [BP + 400], DI
+
+MOV DI, [0x8935]
+MOV DI, [0x2]
+
+MOV [1000], DI
+MOV [0x321], DI

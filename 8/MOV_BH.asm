@@ -1,0 +1,76 @@
+[bits 16]
+
+MOV BH, 0
+MOV BH, 58
+MOV BH, 0x23
+
+MOV BH, AL
+MOV BH, BL
+MOV BH, CL
+MOV BH, DL
+
+MOV BH, AH
+MOV BH, BH
+MOV BH, CH
+MOV BH, DH
+
+MOV BH, [BX + SI]
+MOV BH, [BX + DI]
+MOV BH, [BP + SI]
+MOV BH, [BP + DI]
+MOV BH, [SI]
+MOV BH, [DI]
+MOV BH, [BX]
+MOV BH, [BP]
+
+MOV [BX + SI], BH
+MOV [BX + DI], BH
+MOV [BP + SI], BH
+MOV [BP + DI], BH
+MOV [SI], BH
+MOV [DI], BH
+MOV [BX], BH
+MOV [BP], BH
+
+MOV BH, [BX + SI + 5]
+MOV BH, [BX + DI - 34]
+MOV BH, [BP + SI + 127]
+MOV BH, [BP + DI - 128]
+MOV BH, [SI + 42]
+MOV BH, [DI + 76]
+MOV BH, [BX + 0x45]
+MOV BH, [BP + 4]
+
+MOV BH, [BX + SI + 3489h]
+MOV BH, [BX + DI - 940]
+MOV BH, [BP + SI + 1271]
+MOV BH, [BP + DI - 0xAF]
+MOV BH, [SI + 4200]
+MOV BH, [DI + 706]
+MOV BH, [BX + 0x450]
+MOV BH, [BP + 400]
+
+MOV [BX + SI + 5], BH
+MOV [BX + DI - 34], BH
+MOV [BP + SI + 127], BH
+MOV [BP + DI - 128], BH
+MOV [SI + 42], BH
+MOV [DI + 76], BH
+MOV [BX + 0x45], BH
+MOV [BP + 4], BH
+
+MOV [BX + SI + 3489h], BH
+MOV [BX + DI - 940], BH
+MOV [BP + SI + 1271], BH
+MOV [DI + 706], BH
+MOV [BP + DI - 0xAF], BH
+MOV [SI + 4200], BH
+MOV [BX + 0x450], BH
+MOV [BP + 400], BH
+
+MOV BH, [0x8935]
+MOV BH, [0x2]
+
+MOV [1000], BH
+MOV [0x321], BH
+

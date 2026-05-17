@@ -1,0 +1,22 @@
+[bits 16]
+
+MOV AL, [CS:BX + SI]
+MOV [CS:BX + SI], DL
+
+MOV BH, [CS:BX + DI]
+MOV [CS:BX + DI], AL
+
+MOV AL, [CS:BP + SI]
+MOV [CS:BP + SI], AL
+
+MOV AL, [CS:BP]
+
+MOV BL, [CS:BX]
+MOV [CS:BX], AL
+
+MOV AL, [CS:SI + 0x36]
+MOV AL, [CS:0x73]
+
+MOV [CS:BX + DI + 0x8493], CL
+
+MOV BYTE [CS:0x8949], 0x34
